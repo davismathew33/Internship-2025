@@ -41,7 +41,7 @@ A hybrid model combining:
 
 ###  Requirements
 
-# Create and activate virtual environment
+### Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
