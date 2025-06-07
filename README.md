@@ -1,6 +1,6 @@
 #  Multimodal Summarization and Event Highlight Generation using Deep Learning
 
-## 📘 Overview
+##  Overview
 
 This project implements a suite of multimodal AI systems for understanding and summarizing various media formats including text, images, and videos. It includes the following modules:
 
@@ -37,9 +37,9 @@ A hybrid model combining:
 
 ---
 
-## ⚙️ Environment Setup
+## ⚙ Environment Setup
 
-### ✅ Requirements
+###  Requirements
 
 # Create and activate virtual environment
 python -m venv venv
