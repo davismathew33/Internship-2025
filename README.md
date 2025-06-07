@@ -37,7 +37,7 @@ A hybrid model combining:
 
 ---
 
-## ⚙ Environment Setup
+##  Environment Setup
 
 ###  Requirements
 
@@ -50,17 +50,17 @@ pip install -r requirements.txt
 
 Make sure to install ffmpeg separately for video/audio processing.
 
- Main Libraries Used:
+#### Main Libraries Used:
 transformers, torch, opencv-python
 whisper, pytesseract, easyocr
 scikit-learn, matplotlib, numpy, moviepy
 
-Running the Models:
+##Running the Models:
 
 The following command is used to run the six tasks :
 python corresponding_file_name.py
 
-Preprocessing Steps:
+##Preprocessing Steps:
 Text:
 Clean HTML tags, remove stopwords
 Sentence segmentation before input to BERTSUM
@@ -75,14 +75,14 @@ Extract frames (for YOLO or SlowFast) using OpenCV
 Extract audio for Whisper using ffmpeg:
 ffmpeg -i input_video.mp4 -q:a 0 -map a audio.wav
 
- Evaluation:
+##Evaluation:
 ROUGE-1, ROUGE-2, ROUGE-L used for summarization accuracy.
 
 Highlight accuracy manually verified against ground truth.
 
 Qualitative evaluation of image stories and VQA.
 
-Dataset:
+##Dataset:
 CNN/Daily Mail dataset was used for text summarization . Images related to AI robots were used for image to story generation. Images related to parks, gardens were used for visual question answering. Cricket match(England vs India , 3rd T20I, 2022), football match(Spain vs Portugal,FIFA World Cup, 2018), speech video (from YouTube) were used as input for video summarization.
 
 
