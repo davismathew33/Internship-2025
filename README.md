@@ -39,7 +39,7 @@ A hybrid model combining:
 
 ##  Environment Setup
 
-###  Requirements
+###  Requirements:
 
 ### Create and activate virtual environment
 python -m venv venv
@@ -57,7 +57,7 @@ scikit-learn, matplotlib, numpy, moviepy
 
 ## Running the Models:
 
-The following command is used to run the six tasks :
+The following command is used to run the tasks :
 python corresponding_file_name.py
 
 ## Preprocessing Steps:
