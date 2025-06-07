@@ -1,4 +1,4 @@
-# 🧠 Multimodal Summarization and Event Highlight Generation using Deep Learning
+#  Multimodal Summarization and Event Highlight Generation using Deep Learning
 
 ## 📘 Overview
 
